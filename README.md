@@ -2,24 +2,24 @@
 
 Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 
-# Açık/Kapalı Prensibi
+# 1. Açık/Kapalı Prensibi
 
 - Arayüzler
 - Genişlemeye açık, değişikliğe kapalı.
 
-# Programlama Dili
+# 2. Programlama Dili
 
 - Nesne yönetimli programlama kavramları
 - Derste kullanılacak programlama dili: Java
 
-# Yazılım Tasarım Desenleri
+# 3. Yazılım Tasarım Desenleri
 
 - Tanım: Sık karşılaşılan nesne yönelimli programlama problemlerinin çözümleridir.
 - Hazır sınıflar
 - Soyut tanımlar
 - Çözümlerin tekrar kullanımı
 
-# Tasarım Deseni Özellikleri
+# 4. Tasarım Deseni Özellikleri
 
 - Adı,
 - Sınıfı,
@@ -32,18 +32,18 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Bilinen kullanımları,
 - İlgili Desenler
 
-# Desen Sınıfları
+# 5. Desen Sınıfları
 
 - Yaratımsal
 - Yapısal
 - Davranışsal
 
-# Desen Kapsamları
+# 6. Desen Kapsamları
 
 - Sınıf
 - Nesne
 
-# Yaratımsal
+# 7. Yaratımsal
 
 - İlklendirmenin soyutlaştırılması
 - Sistemin nesnelerin yaratılmasından bağımsız hale gelmesi
@@ -53,7 +53,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
     - Nesnelerin ilklendirimesi gizli
 - Ne, kim, nasıl, ne zaman
 
-# Yaratımsal Desenler
+# 8. Yaratımsal Desenler
 
 - Abstract Factory
 - Builder
@@ -61,12 +61,12 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Prototype
 - Singleton
 
-# Yapısal
+# 9. Yapısal
 
 - Kalıtım (İnheritance) yerine bileşim (composition)
 - Sınıf ve nesneler ile daha büyük yapıların oluşturulması.
 
-## Yapısal Desenler
+## 9.1 Yapısal Desenler
 
 - Adapter
 - Bridge
@@ -76,12 +76,12 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Flyweight
 - Proxy
 
-# Davanışsal
+# 10. Davanışsal
 
 - Algoritmaların ve nesneler arası sorumlulukların atanması ile ilgili
 - Nesneler arası ilişki
 
-## Davranışsal Desenler
+## 10.1 Davranışsal Desenler
 
 - Chain of Responsibility
 - Command
@@ -94,7 +94,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Template
 - Visitor
 
-# İterator Deseni
+# 11. İterator Deseni
 
 - İterator: Yineyici, tekrarlayıcı
 - Diğer bilinen adı: Cursor; imleç
@@ -106,12 +106,12 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Dikatli kullanım
 - Ek iterator yöntemleri
 
-# İlgili Desenler
+# 12. İlgili Desenler
 
 - Composite
 - Factory
 
-# Composite Deseni
+# 13. Composite Deseni
 
 - Composite: Bileşim, birçok parçadan oluşan
 - Amaç: Bütüne ve bütünün parçalarına aynı şekilde erişim sağlamak
@@ -130,7 +130,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Decorar ile birlikte sıkça kullanılır,
 - İterator ile composite sınıflar gezilebilir.
 
-# Command Deseni
+# 14. Command Deseni
 
 - Command: Komut, emir
 - Diğer bilinen adları: Action (Eylem), Transaction (İşlem)
@@ -143,7 +143,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Macrocommand
 - Genişletilebilir
 
-# State Deseni
+# 15. State Deseni
 
 - State: Durum, hal
 - Amaç: Bir nesnenin iç durumu değişince davranışının da değişmesini sağlamak
@@ -156,7 +156,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Singleton
 - Context ve State
 
-# Factory Method Deseni
+# 16. Factory Method Deseni
 
 - Factory: Fabrika, imalathane, yapımevi, Merhod: Yönyem
 - Diğer bilinen adı: Virtual Constructor; sanal yapılandırıcı
@@ -170,7 +170,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Template
 - Prototype
 
-# Abstract Factory Deseni
+# 17. Abstract Factory Deseni
 
 - Abstract: Soyut, Factory: Fabrika, imalathane, yapımevi…
 - Diğer bilinen adı: Kit (Takım Çantası, Alet Takımı)
@@ -183,7 +183,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Yeni ürün desteği zayıf
 - Singleton
 
-# Singleton Deseni
+# 18. Singleton Deseni
 
 - Singleton: Tekil, tekil kalıp
 - Nesne yaratımsal
@@ -202,14 +202,14 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
     - Builder
     - Prototype
 
-# Adapter Deseni
+# 19. Adapter Deseni
 
 - Adapter: Adaptör, uyarlayan
 - Bilinen diğer adı: Wrapper, sarmalayan, saran
 - Amacı: Bir sınıfın arayüzünü, istemcilerini beklediği arayüze dönüştürmek
 - Hem sınıf hemde nesne yapısal
 
-# Observer Deseni
+# 20. Observer Deseni
 
 - Observer: Gözlemci, izleyici
 - Bilinen diğer adları:
@@ -221,7 +221,7 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Güncelleme
 - Silinen nesneler
 
-# Proxy Deseni
+# 21. Proxy Deseni
 
 - Proxy: Vekil
 - Bilinen diğer adları: Surrogate
@@ -232,11 +232,11 @@ Eğitim kavram haritası mantığında kısa bilgiler vererek devam etmektedir.
 - Koruyucu vekil
 - Akıllı referans
 
-# yazar:
+# 22. yazar:
 **Ömer Kılıç**
 
-# Yayınlanma Tarihi:
+# 23. Yayınlanma Tarihi:
 **25.02.2023**
 
-# Yazar İletişim/Bilgi/Özgeçmiş:
+# 24. Yazar İletişim/Bilgi/Özgeçmiş:
 **http://omerkilic.rf.gd/**
